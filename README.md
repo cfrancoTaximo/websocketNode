@@ -6,3 +6,8 @@
 npm install
 npm start
 ```
+# Local Machine Dependencies
+``` bash
+-NPM
+-Node
+```
