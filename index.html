@@ -18,7 +18,7 @@
     </style>
 
     <script>
-      var ws = new WebSocket('ws://sleepy-springs-15554.herokuapp.com/');
+      var ws = new WebSocket('wss://sleepy-springs-15554.herokuapp.com/');
       ws.onmessage = function (event) {
         var li = document.createElement('li');
         li.innerHTML = JSON.parse(event.data);
